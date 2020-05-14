@@ -5,6 +5,6 @@ end
 end
 
 def list_dwarves(array)
-array.each_with_index |charachter|
+array.each_with_index |charachter, index|
  p 
 end
