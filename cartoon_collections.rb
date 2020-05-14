@@ -6,5 +6,5 @@ end
 
 def list_dwarves(array)
 array.each_with_index |charachter, index|
- p charachter[index] = index + 1
+ p array[character] = index + 1
 end
