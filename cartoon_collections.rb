@@ -5,6 +5,7 @@ end
 end
 
 def list_dwarves(array)
-array.each_with_index |charachter, index|
- puts array[character] = index
+array.each_with_index do |charachter, index|
+ puts "#{index + 1} #{charachter.capitalize}"
+end
 end
